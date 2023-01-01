@@ -92,8 +92,4 @@ func calculate_uncontrolled_safe_distance(freq_values: FrequencyValues, cable_va
     let gain_decimal = pow(10, freq_values.gaindbi/10)
     
     return sqrt((0.219 * uncontrolled_average_pep * gain_decimal)/mpe_s)
-    
 }
-
-
-
